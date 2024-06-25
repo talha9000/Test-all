@@ -1,12 +1,14 @@
- import React from 'react'
- 
- const Popularity = () => {
-   return (
-       <>
-           
- </>
-   )
- }
- 
- export default Popularity
- 
+import React from 'react'
+
+import BarChart from './BarChart';
+const Popularity = () => {
+  return (
+    <>
+      <div className='pt-44'>
+         <BarChart/>
+        </div>
+    </>
+  )
+}
+
+export default Popularity

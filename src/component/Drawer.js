@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { routes } from '../container/route';
 
 const names=[
-  "Bargraph","Charts","custom oil", "USer Oil data ","Popularity","Steps","Theme Changer" 
+  "Bargraph","Charts","custom oil", "Dynamic chart","USer Oil data ","Popularity","Scatter plot","Steps","Theme Changer" 
 ]
 const Drawer = ({ toggleDrawer }) => {
   const [isOpen, setIsOpen] = useState(false);
